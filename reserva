@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="'viewport" content="width=device-width",initial-scale="1.0">
+        <title>Formulário de Reserva de
+        Viagens</title>
+    </head>
+    <body>
+        <h1>Formulário de Reserva de Viagens</h1>
+        <form>
+         <fieldset>
+         <legend>Dados</legend>
+         Nome:<input label="Nome" type="text" placeholder="John Doe"></input> 
+         <br>
+         Email:<input label="Email" type="text" placeholder="JohnDoe@123.web"></input> 
+         </fieldset>
+         <fieldset>
+         <br>
+         <legend>Serviços Desejados</legend>
+         <label for="checkbox">Compra de Passagens</label>
+         <input label="Serviços" type="checkbox" name="Compra de Passagens" placeholder="Compra de Passagens"/>
+         
+         <label for="checkbox">Reserva de Hospedagem</label>
+         <input label="Serviços" type="checkbox" name="Reserva de Hospedagem" placeholder="Reserva de Hospedagem"/>
+         
+         <label for="checkbox">Aluguel de Veículos</label>
+         <input label="Serviços" type="checkbox" name="checkbox" placeholder="Aluguel de Veículos"/>
+         </fieldset>
+         
+        <fieldset>
+        <legend> Pagamento</legend>
+        <div>
+        <input label="PIX" type="radio" name="pagamento" placeholder="PIX" required/>
+        <label for="radio">PIX</label>
+        </div>
+        <div>
+        <input label="Boleto" type="radio" name="pagamento" placeholder="Boleto"/>
+        <label for="radio" >Boleto</label>
+        
+        </div>
+        <div>
+        <input label="Cartão" type="radio" name="pagamento" placeholder="Cartão"/>
+        <label for="radio" >Cartão</label>
+        <div>
+        <label for="prazo">Prazo de Pagamento:</label>
+        <select label="prazo" name="prazo">
+        <option value="avista">À Vista</option>
+        <option value="5x">Cinco Vezes Sem Juros</option>
+        <option value="10x">Dez Vezes Com Juros</option>
+        </select>
+        </div>
+        </fieldset>
+        <fieldset>
+        <div>
+        <label for="Observações">Observações</label>
+        </div>
+        <textarea name="Observações"></textarea>
+        </fieldset>
+
+        <fieldset>
+         <input type="submit">
+        </fieldset>
+    </form>
+    </body>
+</html>
